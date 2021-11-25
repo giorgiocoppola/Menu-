@@ -14,21 +14,21 @@ function Menu() {
          <h1>Cosa vorresti ordinare?</h1>
          <div className ="testo1"> <img src={pesce} width="300px" height="230px"></img>
          <div className="descrizione">Fritto di pesce</div>
-         <div className="prezzo">30 €</div>
+         <div className="prezzo">15 €</div>
          <button onClick={() => setcount(count + 1)}>Aggiungi</button>
          <p>{count}</p>
          <button onClick={() => setcount(count - 1)}>Togli</button>
          </div>
          <div className ="testo2"> <img src={pesce2} width="300px" height="230px"></img>
          <div className="descrizione">Zuppa di pesce</div>
-         <div className="prezzo">55 €</div>
+         <div className="prezzo">12 €</div>
          <button onClick={() => setcount2(count2 + 1)}>Aggiungi</button>
          <p>{count2}</p>
          <button onClick={() => setcount2(count2 - 1)}>Togli</button>
          </div>
          <div className ="testo3"><img src={pesce3} width="300px" height="230px"></img>
          <div className="descrizione">Fritto di paranza</div>
-         <div className="prezzo">56 €</div>
+         <div className="prezzo">17 €</div>
          <button onClick={() => setcount3(count3 + 1)}>Aggiungi</button>
          <p>{count3}</p>
          <button onClick={() => setcount3(count3 - 1)}>Togli</button>
