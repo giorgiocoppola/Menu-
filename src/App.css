@@ -14,9 +14,10 @@ h1 {
    font-weight: 600;
 }
 button {
-  
+   
    background-color:green;
    margin-top:13px;
+   margin-right: 7px;
    padding:20px;
    border: green;
    color:white;
