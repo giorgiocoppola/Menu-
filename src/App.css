@@ -1,84 +1,17 @@
+.header {
 
-
-
-.container {
-  background-color:white;
-  height: 900px ;
+    color: white;
+    font-size: 30px;
+    font-family: Courier;
+    font-weight: 300;
+    background-color: rgb(58, 55, 55);
   
-
-
 }
 
-h1 {
-   text-align:center;
-   font-weight: 600;
-}
-button {
-   
-   background-color:green;
-   margin-top:13px;
-   margin-right: 7px;
-   padding:20px;
-   border: green;
-   color:white;
-   font-size:35px;
-   font-family:'Lucida Sars';
-   border-radius:40px;
-}
-
-button:hover {
-   background-color:hotpink;
-}
-
-
-.testo1 {
-  width:300px;
-  height:400px;
-  color:black;
-  float:left;
-  margin:20px;
-  text-align:center;
-  position:relative;
-  left:100px;
-}
-
-.testo2 {
-  width:300px;
-  height:400px;
-  color:black;
-  float:left;
-  margin:20px;
-  text-align:center;
-  position:relative;
-  left:100px;
-}
-
-.testo3 {
-  width:300px;
-  height:400px;
-  color:black;
-  float:left;
-  margin:20px;
-  text-align:center;
-  position:relative;
-  left:100px;
-}
-
-
-.descrizione {
-  font-size:25px;
-  font-family: Verdana;
-}
-
-.prezzo {
-  font-size:35px;
-  font-family:'Times New Roman';
-  font-weight: bold;
-  color:rgb(42, 75, 165);
-  position:relative;
-  top:6px;
-}
-
-p {
-   font-size:30px;
+span {
+    font-size: 20px;
+    margin:50px;
+    position:relative;
+    left:120px;
+    font-weight: 200;
 }

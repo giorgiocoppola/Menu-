@@ -1,0 +1,93 @@
+.container {
+    background-color:white;
+    height: 900px ;
+    
+  
+  
+  }
+  
+  .link {
+    color:red;
+    text-align:center;
+    margin-top:20px;
+    font-weight: bold;
+
+  }
+  .dom {
+    color:black;
+    text-align:center;
+    margin-top:20px;
+    font-weight: bold;
+  }
+ 
+  button {
+     
+     background-color:green;
+     margin-top:13px;
+     margin-right: 7px;
+     padding:20px;
+     border: green;
+     color:white;
+     font-size:35px;
+     font-family:'Lucida Sars';
+     border-radius:40px;
+  }
+  
+  button:hover {
+     background-color:hotpink;
+  }
+  
+  
+  .testo1 {
+    width:300px;
+    height:400px;
+    color:black;
+    float:left;
+    margin:20px;
+    text-align:center;
+    position:relative;
+    left:100px;
+  }
+  
+  .testo2 {
+    width:300px;
+    height:400px;
+    color:black;
+    float:left;
+    margin:20px;
+    text-align:center;
+    position:relative;
+    left:100px;
+  }
+  
+  .testo3 {
+    width:300px;
+    height:400px;
+    color:black;
+    float:left;
+    margin:20px;
+    text-align:center;
+    position:relative;
+    left:100px;
+  }
+  
+  
+  .descrizione {
+    font-size:35px;
+    font-family: 'Times New Roman';
+  }
+  
+  .prezzo {
+    font-size:35px;
+    font-family:'Times New Roman';
+    font-weight: bold;
+    color:rgb(42, 75, 165);
+    position:relative;
+    top:6px;
+  }
+  
+  p {
+     color:black;
+     font-size:80px;
+     font-family: 'Times New Roman';
+  }

@@ -2,17 +2,20 @@ import pesce from './pesce.webp'
 import pesce2 from './fritto.jpg'
 import pesce3 from './Fritto-di-paranza.jpg'
 import React,{useState} from 'react'
+import './Home.css';
 
 
 
-function Menu({max=20,min=0}) {
+export default function Home({max=20,min=0}) {
   const [count,setcount] = useState(0)
   const [count2,setcount2] = useState(0)
   const [count3,setcount3] = useState(0)
 
          return (
+  
         <div className="container">
-         <h1>Cosa vorresti ordinare?</h1>
+         <h1 className="link">Home</h1>
+         <h1 className="dom">Cosa vorresti ordinare?</h1>
          <div className ="testo1"> <img src={pesce} width="300px" height="230px"></img>
          <div className="descrizione">Fritto di pesce</div>
          <div className="prezzo">15 €</div>
@@ -76,4 +79,5 @@ function Menu({max=20,min=0}) {
    
 }
 
-export default Menu;
+
+
